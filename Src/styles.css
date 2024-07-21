@@ -7,10 +7,32 @@ h1 {
 }
 
 .weather-App {
+    background-color: antiquewhite;
     display: block;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 30 auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100,.08 );
     padding: 30px;
     border-radius: 16px;
+}
+
+.pt-mono-regular {
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  form {
+    display: block
+  }
+
+.search-Input {
+    background-color: #f9f7fe;
+    border: none;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    padding: 20px;
+    width: 75%;
+    border-radius: 6px;
+
 }
