@@ -1,5 +1,5 @@
 body {
-    background-color: orchid;
+    background-color: ;
 }
 
 h1 {
@@ -66,4 +66,34 @@ h1 {
     width: 75%;
     border-radius: 6px;
 
+}
+.search-button {
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #885df1;
+    color: white;
+    border: none;
+    padding: 20px;
+    line-height: 1;
+    border-radius: 5px;
+}
+
+.number{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.icon {
+    position: relative;
+    top: -8px;
+    font-size: 40px;
+    margin-right: 10px;
+
+}
+
+.units{
+    font-size: 18px;
+    position: relative;
+    top: -38px;
 }
