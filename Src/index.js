@@ -16,3 +16,17 @@ function search (event) {
 
     axios.get(apiUrl).then(displayTemperature);
 }
+
+let now = new Date();
+
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",]
+
+let Day = days[now.getDay()];
+let hour = now.getHours();
+let minutes = now.getMinutes().toString().padStart(2, "0");
+
+let date = document.querySelector("#timeAndDate");
+date.innerHTML = `${Day} ${hour}:${minutes}, `;
+
+let form = document.querySelector("form");
+form.addEventListener("submit", search);
