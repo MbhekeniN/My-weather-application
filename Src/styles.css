@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(184deg, rgba(238,174,202,1) 0%, rgba(214,178,210,1) 27%, rgba(179,150,213,1) 50%, rgba(180,182,222,1) 77%, rgba(148,187,233,1) 100%);
+    background-image: url("Src/bgImage.jpeg");
     background-repeat: no-repeat;
     ;
 }
