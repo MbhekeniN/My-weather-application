@@ -1,6 +1,7 @@
 body {
-    background-image: url("Src/Images/bgImage.jpeg");
-    background-color: aquamarine;
+    background-color: #f0adf0 ;;
+    background-repeat: no-repeat;
+    ;
 }
 
 h1 {
