@@ -1,5 +1,6 @@
 body {
-    background-image: url(Src\Images\bgImage.jpg);
+    background-image: url(Src/Images/bgImage.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     ;
 }
