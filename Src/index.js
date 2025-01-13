@@ -1,13 +1,13 @@
 function displayTemperature (response) {
-    let temperatureElement = document.querySelector("#number")
+    let temperatureElement = document.querySelectorAll("#number")
     let Temperature = Math.round (response.data.temperature.current)
     temperatureElement.innerHTML = Temperature;
-    let h1 = document.querySelector("#current-city")
+    let h1 = document.querySelectorAll("#current-city")
     h1.innerHTML = response.data.city;
     let conditionsElement = document.querySelector("#current-Conditions");
     let humidityElement = document.querySelector("#current-Humidity");
     let windSpeedElement = document.querySelector("#current-Wind");
-    let iconElement = document.querySelector("#icon")
+    let iconElement = document.querySelectorAll("#icon")
     conditionsElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = response.data.temperature.humidity;
     windSpeedElement.innerHTML = response.data.wind.speed;
