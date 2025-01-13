@@ -8,6 +8,22 @@ body {
 h1 {
     color: black;
 }
+.firstTopHeading {
+    color: black;
+    
+
+}
+.brief-weather-overview {
+    background-color: #fff4f8;
+    display: block;
+    max-width: 600px;
+    max-height: max-content;
+    margin: 0 auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100,.08 );
+    padding: 30px;
+    border-radius: 16px;
+
+}
 
 .weather-App {
     background-color: #fff4f8;
@@ -67,7 +83,11 @@ h1 {
     font-size: 25px;
   }
 
-.current-Climate{
+.current-Climate {
+    display: flex;
+    justify-content: space-between;
+}
+.current-Climate01 {
     display: flex;
     justify-content: space-between;
 }
@@ -118,3 +138,33 @@ h1 {
     height: 88px;
       
 }
+
+.number01 {
+    color: #885df1;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.icon01 {
+    color: #885df1;
+    position: relative;
+    top: -8px;
+    font-size: 40px;
+    margin-right: 10px;
+
+}
+
+.units01 {
+    color: #885df1;
+    font-size: 18px;
+    position: relative;
+    top: -38px;
+}
+
+.Icon01 {
+
+    width: 88px;
+    height: 88px;
+      
+}
+
