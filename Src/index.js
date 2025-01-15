@@ -38,3 +38,6 @@ date.innerHTML = `${Day} ${hour}:${minutes}, `;
 
 let form = document.querySelector("form");
 form.addEventListener("submit", search);
+
+let iconElement = document.querySelectorAll(".iconJs")
+console.log(iconElement.length)
