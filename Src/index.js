@@ -1,8 +1,8 @@
 function displayTemperature (response) {
-    let temperatureElement = document.querySelectorAll(".numberJs")
-    let Temperature = Math.round (response.data.temperature.current)
+    let temperatureElement = document.querySelectorAll(".numberJs");
+    let Temperature = Math.round (response.data.temperature.current);
     temperatureElement.innerHTML = Temperature;
-    let h1 = document.querySelectorAll(".cityJs")
+    let h1 = document.querySelectorAll(".cityJs");
     h1.innerHTML = response.data.city;
     let conditionsElement = document.querySelector("#current-Conditions");
     let humidityElement = document.querySelector("#current-Humidity");

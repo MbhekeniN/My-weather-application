@@ -1,5 +1,5 @@
 body {
-    background-image: url(background-image.jpeg);
+    background-image: url(Aura.jpg);
     background-size: cover;
     
     
@@ -33,7 +33,7 @@ h1 {
 }
 
 .weather-App {
-    background-color: #fff4f8;
+    background-color: #BCE3C5;
     display: block;
     max-width: 600px;
     max-height: max-content;
@@ -43,20 +43,20 @@ h1 {
     border-radius: 16px;
 }
 .search-Tab {
-    background-color: #ffeeee;
+    background-color: #f5F5DC;
     display: block;
     max-width: 600px;
     max-height: max-content;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 40px;
-    box-shadow: 0 30px 50px rgba(65, 50, 100,.08 );
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.1 );
     padding: 30px;
     border-radius: 16px;
 
 }
 .footer{
-    background-color: #D1D8D8 ;
+    background-color: #f5F5DC ;
     display: block;
     max-width: 600px;
     max-height: max-content;
