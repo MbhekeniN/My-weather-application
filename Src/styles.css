@@ -1,5 +1,6 @@
 body {
-    background-image: url(Aura.jpg);
+    
+    background: linear-gradient(to right, #fff, #076585); 
     background-size: cover;
     
     
