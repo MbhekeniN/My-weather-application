@@ -1,7 +1,7 @@
 body {
-    
-    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );    background-size: cover;
+    background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
