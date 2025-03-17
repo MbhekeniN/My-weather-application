@@ -33,8 +33,8 @@ h1 {
 }
 
 .weather-App {
-    background-color: rgba(232, 234, 246, 0.8 );
-    border: 2px outset #B9C2DD;
+    background-color: rgba(237, 231, 246, 0.8 );
+    border: 2px outset #B39DDB;
     display: block;
     max-width: 600px;
     max-height: max-content;
@@ -58,8 +58,8 @@ h1 {
 
 }
 .footer{
-    background-color: rgba(225, 226, 236, 0.8) ;
-    border: 3px outset #b2b9c8;
+    background-color: rgba(224, 242, 248, 0.8) ;
+    border: 3px outset #80CBC4;
     display: block;
     max-width: 600px;
     max-height: max-content;
