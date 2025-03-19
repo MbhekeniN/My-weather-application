@@ -11,7 +11,7 @@ function displayTemperature (response) {
     conditionsElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = response.data.temperature.humidity;
     windSpeedElement.innerHTML = response.data.wind.speed;
-    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="Icon" />`;
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="icon" />`;
 }
 
 function search (event) {
