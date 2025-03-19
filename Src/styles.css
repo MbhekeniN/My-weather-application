@@ -14,27 +14,9 @@ h1 {
     
 
 }
-.brief-weather-overview {
-    background-color: #fff4f8;
-    display: block;
-    max-width: 600px;
-    max-height: max-content;
-    margin: 0 auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100,.08 );
-    padding: 30px;
-    border-radius: 16px;
-    margin-bottom: 60px;
-    opacity: 0.2;
-
-}
-.brief-weather-overview-text{
-    opacity: 1;
-
-}
 
 .weather-App {
     background-color: rgba(237, 231, 246, 0.8 );
-    border: 1px inset #B39DDB;
     display: block;
     max-width: 600px;
     max-height: max-content;
@@ -51,7 +33,6 @@ h1 {
 
 .search-Tab {
     background-color: rgb(224, 242, 247, 0.8);
-    border: 1px inset #A8D0DB ;
     display: block;
     max-width: 600px;
     max-height: max-content;
@@ -71,7 +52,6 @@ h1 {
 
 .footer{
     background-color: rgba(224, 242, 248, 0.8) ;
-    border: 1px inset #a3c8c5;
     display: block;
     max-width: 600px;
     max-height: max-content;
